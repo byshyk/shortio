@@ -1,9 +1,11 @@
-##ShortIO: must have!
-###Installation
+## ShortIO: must have!
+
+### Installation
 ```bash
 pip install shortio
 ```
-###Usage
+
+### Usage
 ```python
 from shortio import read, write
 
