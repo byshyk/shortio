@@ -18,5 +18,8 @@ setup(
     author=about['__author__'],
     author_email=about['__author_email__'],
     license=about['__license__'],
-    packages=find_packages()
+    packages=find_packages(),
+    extras_require={
+        'YAML': ['PyYAML>=5.1']
+    }
 )
