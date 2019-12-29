@@ -1,6 +1,7 @@
 from os import path
 from setuptools import find_packages, setup
 
+
 about = {}
 with open(path.join('shortio', '__version__.py'), 'r', encoding='utf-8') as f:
     exec(f.read(), about)
@@ -9,7 +10,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     readme = f.read()
 
 setup(
-    name=about['__title__'],
+    name=about['__name__'],
     version=about['__version__'],
     description=about['__description__'],
     long_description=readme,
