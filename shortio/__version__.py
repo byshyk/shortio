@@ -4,4 +4,4 @@ __description__ = 'ShortIO library is intended to avoid context manager boilerpl
 __license__ = 'MIT'
 __title__ = 'shortio'
 __url__ = 'https://github.com/byshyk/shortio'
-__version__ = '0.0.3'
+__version__ = '0.1.0'
